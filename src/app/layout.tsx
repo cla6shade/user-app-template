@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Vibe Start",
-  description: "바이브코딩을 위한 웹앱 시작 화면",
+  title: "앱 미리보기 안내",
+  description: "원하는 앱을 만들고 미리보는 방법을 안내합니다.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
